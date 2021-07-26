@@ -4,6 +4,9 @@ Authors: Rémy DESHAYES, Olivier DULCY
 
 Final project for the Reinforcement Learning module at ENSAE Paris. Our project is based on the paper _Diversity Is All You Need_ by Benjamin Eysenbach, Abhishek Gupta, Julian Ibarz, Sergey Levine (2018)
 
+In the Reinforcement Learning (RL) paradigm one is interested in the study of agents and how they learn by trial and error. The fundamental idea is that rewarding or punishing an agent for its behavior makes it more likely to repeat it or discontinue it thereafter.
+Section 1 of our report - please have a look at it - introduces the standard RL problem and spotlights some of its associated issues before introducing a workaround to the most pressing one. Section 2 delves into the workaround and explore a corresponding method that we later implement1, namely Diversity Is All You Need (DIAYN). Finally, section 3 briefly lay out where DIAYN stands in the RL literature before wrapping up the project with a few conclusive remarks
+
 ## Installation
 ### Build the Docker container
 The code has been developped inside a Jupyter Lab Docker container allowing GPU access. The specific image is ``cschranz/gpu-jupyter:v1.3_cuda-10.1_ubuntu-18.04_python-only``. Please visit https://github.com/iot-salzburg/gpu-jupyter for further details.
